@@ -27,24 +27,27 @@ class Camera(object):
 			for thing in group:
 				newpos = self.calculatePosOffset(thing)
 				if newpos is not None: #If the distance from the objects is not greater than the screen
-					angleOffset = self.calculateAngleOffset(thing)
-					newpos[0] -= thing.rect.width/2*abs(cos(-angleOffset))
-					newpos[1] -= thing.rect.height/2*abs(sin(angleOffset))
-					image = rot_center(thing.image2,degrees(-angleOffset))
+					rotationOffset = self.calculateAngleOffset(thing)
+					image = rot_center(thing.image2,degrees(-rotationOffset))
 					self.surface.blit(image,(newpos[0],newpos[1]))
 
 	def calculatePosOffset(self,sprite):
-		#if not isinstance(sprite,shot):
-		vector = Vector2(sprite.rect.x - self.parent.rect.x, sprite.rect.y - self.parent.rect.y)
-		#else:
-		#vector = Vector2(sprite.rect.centerx - self.parent.rect.centerx, sprite.rect.centery - self.parent.rect.centery)
-		distance = vector.as_polar()[0] #sqrt(((sprite.rect.centerx - self.parent.rect.centerx)**2) + ((sprite.rect.centerx - self.parent.rect.centerx)**2))
-		angle = vector.as_polar()[1]
+		"""Calculates the position the sprite is shown on the screen when taking the parent's rotation and position into account"""
+		vector = Vector2(sprite.rect.centerx - self.parent.rect.centerx, sprite.rect.centery - self.parent.rect.centery)#
+		distance = vector.as_polar()[0]#Creates a vector between the center position of the parent and the target sprite
+		angle = vector.as_polar()[1] #Then converts it to polar coordinates, so it's possible to transform the position based on the angle
 		if distance > 650: return None
-		newpos = [distance*cos(radians(angle)+self.offset)+320,distance*sin(radians(angle)+self.offset)+480]
+		newpos = [distance*cos(radians(angle)+self.offset)+320, distance*sin(radians(angle)+self.offset)+480]
+
+		vector = Vector2(sprite.rect.x-sprite.rect.centerx, sprite.rect.y-sprite.rect.centery)#Creates a vector between the objects own center and rect position
+		standardAngle = vector.as_polar()[0]#This is the standard angle for drawing the object, being the angle between the center and its top-left point
+		angleOffset = self.calculateAngleOffset(sprite)
+		newpos[0] -= sprite.rect.width/2*abs(cos(standardAngle-angleOffset)) #Then, returns the new draw position based on the displacement of both angles
+		newpos[1] -= sprite.rect.height/2*abs(sin(standardAngle+angleOffset)) #the standard angle and the camera's own angle.
 		return newpos
 
 	def calculateAngleOffset(self,sprite):
+		"""The difference in angles between the camera and the object"""
 		offset = self.offset - sprite.angle #We subtract here because sprite.angle is already negative
 		return offset
 
