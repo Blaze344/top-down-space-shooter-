@@ -1,8 +1,9 @@
-import pygame, sys
+import pygame, sys, time
 from pygame.locals import *
 from random import randint
 from math import sin,cos,pi,degrees,radians,sqrt
 
+from time import sleep
 import objects,render
 
 pygame.init()
@@ -10,9 +11,8 @@ pygame.init()
 # set up the display
 FPS = 60
 fpsClock = pygame.time.Clock()
-graphwidth = 640
-graphheight = 640
-DISPLAYSURF = pygame.display.set_mode((graphwidth, graphheight))
+
+DISPLAYSURF = pygame.display.set_mode((render.graphwidth, render.graphheight))
 
 bg = pygame.image.load('BG.jpg')	
 
@@ -28,31 +28,40 @@ def update():
 		except AttributeError:
 			ship.update()
 	for ship in objects.enemy_group:
-		#ship.ai()
+		ship.ai()
 		ship.update()
 	for bullet in objects.player_shots:
-		bullet.update(player_ship)
+		bullet.update()
 		checkCollision(bullet)
 	for bullet in objects.enemy_shots:
-		bullet.update(player_ship)
+		bullet.update()
 		checkCollision(bullet)
+	for particle in objects.particles:
+		particle.update()
+	for explosion in objects.explosions:
+		explosion.update()
 	camera.update()
-	camera.draw()
+	camera.render()
 	fpsClock.tick(FPS)
-	pygame.display.update()
+
+
+#def checkCollision(shot):
+#	if shot.team == "Green":
+#		for ship in objects.enemy_group:
+
 
 def checkCollision(shot):
 	if shot.team == "Green":
 		for ship in objects.enemy_group:
-			if shot.rect.centerx in range(ship.rect.x, ship.rect.x+ship.rect.width+1) and \
-			   shot.rect.centery in range(ship.rect.y, ship.rect.y+ship.rect.height+1):
-			   ship.hp -= shot.dmg
+			if (shot.rect.centerx > ship.rect.x and shot.rect.centerx < ship.rect.x + ship.rect.width) and \
+			   (shot.rect.centery > ship.rect.y and shot.rect.centery < ship.rect.y + ship.rect.height):
+			   ship.takeDamage(shot)
 			   shot.kill()
 	else:
 		for ship in objects.player_group:
-			if shot.rect.centerx in range(ship.rect.x, ship.rect.x+ship.rect.width+1) and \
-			   shot.rect.centery in range(ship.rect.y, ship.rect.y+ship.rect.height+1):
-			   ship.hp -= shot.dmg
+			if (shot.rect.centerx > ship.rect.x and shot.rect.centerx < ship.rect.x + ship.rect.width) and \
+			   (shot.rect.centery > ship.rect.y and shot.rect.centery < ship.rect.y + ship.rect.height):
+			   ship.takeDamage(shot)
 			   shot.kill()
 
 forward = False
@@ -61,15 +70,23 @@ left = False
 right = False
 mouseClicked = False
 
-player_ship = objects.player(320,320,"Green")
-#grunt_friend = objects.grunt(150,150,"Green")
-#flanker_friend = objects.flanker(200,200,"Green")
-flanker_ship = objects.flanker(300,300,"Red")
-#grunt_ship = objects.grunt(500,500,"Red")
-#grunt_ship = objects.grunt(400,400,"Red")
+#player_ship = objects.player(200,200,"Green")
+reference = objects.particle(0,0,(155,40,40),50,20000)
 
-camera = render.Camera(player_ship,DISPLAYSURF)
+
+#for i in range(5):
+#	grunt_friend = objects.grunt(400,60*i,"Green",pi)
+#	grunt_enemy = objects.grunt(-400,60*i,"Red")
+
+for i in range(5):
+	ace_friend = objects.ace(400,-200 + 70*i,"Green",pi)
+	ace_enemy = objects.ace(-400,-200 + 70*i,"Red")
+	#ace_friend = objects.ace(-50 + 50*i, -600,"Green",(3*pi)/2)
+	#ace_enemy = objects.ace(-50 + 50*i, 600,"Red",pi/2)
+
+camera = render.Camera(reference,DISPLAYSURF)
 prevtime = 0
+sleep(1)
 while True:
 	#print camera.calculatePosOffset(player_ship)
 	nowtime = pygame.time.get_ticks()
@@ -103,13 +120,14 @@ while True:
 	        mouseClicked = True
 
 
-	if forward == True: player_ship.moveforward()
-	if back == True: flanker_ship.shoot()
-	if left == True: player_ship.moveleft()
-	if right == True: player_ship.moveright()
+	if forward == True: player_ship.thrust()
+	if back == True: player_ship.thrust()
+	#if left == True: player_ship.moveleft()
+	#if right == True: player_ship.moveright()
 	if mouseClicked == True: player_ship.shoot()
-	if mousex < 214: player_ship.rotateleft(mousex-214)
-	elif mousex > 428: player_ship.rotateright(mousex-428)
+	relMouse = (camera.pos[0] - render.graphwidth/2 + mousex, camera.pos[1] - render.graphheight/2 + mousey)
+	#player_ship.rotate(relMouse)
+
 
 
 	update() #updates every object and screen every frame

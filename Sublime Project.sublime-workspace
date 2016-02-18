@@ -1,0 +1,766 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"player",
+				"player_ship"
+			],
+			[
+				"explo",
+				"explosionImgs"
+			],
+			[
+				"explosion",
+				"explosionImgs"
+			],
+			[
+				"hptimer",
+				"hptimerMAX"
+			],
+			[
+				"hp",
+				"hptimer"
+			],
+			[
+				"center",
+				"centerx"
+			],
+			[
+				"centery",
+				"centery"
+			],
+			[
+				"grap",
+				"graphwidth"
+			],
+			[
+				"ca",
+				"calculateSpeed"
+			],
+			[
+				"random",
+				"randomAngle"
+			],
+			[
+				"camra",
+				"cameraPos"
+			],
+			[
+				"camrea",
+				"cameraPos"
+			],
+			[
+				"camera",
+				"cameraPos"
+			],
+			[
+				"angle",
+				"angleOffset"
+			],
+			[
+				"grunt",
+				"grunt_ship"
+			],
+			[
+				"tr",
+				"try	Try/Except"
+			],
+			[
+				"vecto",
+				"Vector2"
+			],
+			[
+				"get",
+				"getTarget"
+			],
+			[
+				"shoot",
+				"shootTimer"
+			],
+			[
+				"shoo",
+				"shootTimer"
+			],
+			[
+				"enemy",
+				"enemy_group"
+			],
+			[
+				"radi",
+				"radialaccel"
+			],
+			[
+				"as",
+				"as_polar"
+			],
+			[
+				"palyer",
+				"player_ship"
+			],
+			[
+				"accel",
+				"accel_angle"
+			],
+			[
+				"rot",
+				"rot_center"
+			],
+			[
+				"enem",
+				"enemy_shots"
+			],
+			[
+				"dis",
+				"DISPLAYSURF"
+			],
+			[
+				"graph",
+				"graphheight"
+			],
+			[
+				"move",
+				"moveforward"
+			],
+			[
+				"ac",
+				"accelerating"
+			],
+			[
+				"sort",
+				"sorted_elements"
+			],
+			[
+				"gene",
+				"GenerateTone"
+			],
+			[
+				"graphheight",
+				"graphheight"
+			],
+			[
+				"display",
+				"DISPLAYSURF"
+			],
+			[
+				"fitness",
+				"fitness_evaluation"
+			],
+			[
+				"bree",
+				"breed_crossover"
+			],
+			[
+				"rando",
+				"randomize_genes"
+			],
+			[
+				"fit",
+				"fitness_evaluation"
+			],
+			[
+				"pop",
+				"population"
+			],
+			[
+				"mul",
+				"multiplication"
+			],
+			[
+				"mutli",
+				"multiplication"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "game.py",
+			"settings":
+			{
+				"buffer_size": 3957,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Python27/Lib/site-packages/pygame/examples/aliens.py",
+			"settings":
+			{
+				"buffer_size": 9554,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "render.py",
+			"settings":
+			{
+				"buffer_size": 4262,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "objects.py",
+			"settings":
+			{
+				"buffer_size": 17893,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 216.0,
+		"history":
+		[
+			"print(\"Hey\")",
+			"from math import randint",
+			"print \"hey\""
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/HAMILTON/Documents/GitHub/pewpew/score.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/teste.py",
+		"/C/Python27/Lib/site-packages/pygame/examples/cursors.py",
+		"/C/Python27/Lib/site-packages/pygame/examples/stars.py",
+		"/C/Python27/Lib/site-packages/pygame/examples/liquid.py",
+		"/C/Python27/Lib/site-packages/pygame/examples/camera.py",
+		"/C/Users/HAMILTON/Documents/GitHub/pewpew/navinha.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/ListaLigadaBase.c",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/Brute Force.c",
+		"/C/Users/HAMILTON/Documents/GitHub/top-down-space-shooter-/render.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/objects.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/render.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/game.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/Space shooter.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/render",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/render.py.txt",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/space shooter/objects",
+		"/C/Users/HAMILTON/Documents/.C Stuff/teste2.c",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Genetic.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/draw.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/teste.c",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Navinha v final/navinha - Copy.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Navinha v final/navinha.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/gcc compile.sublime-build",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/Recursion.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/ex1811.c",
+		"/C/Python27/Lib/site-packages/pygame/examples/aliens.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Graphical Sorts/Merge sort.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Graphical Sorts/Graphical Merge Sort.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/ex1811",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/JAPSA.c",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/opikwedjf.c",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Graphical Sorts/Graphical bubble sort.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Graphical Sorts/Graphical generic sort.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/parser2.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Learning codes/Multiplicador/Multiplicador.c",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Navinha/navinha.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Battleship.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/nao.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/maria.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/escolhas de texto andre.cpp",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Basic256/Recebe calculo, realiza calculo v2.1.kbs",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Python AED/Ex2 python AED.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/text-combat backup.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/setup.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/text-combat.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Teste/Gen.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Graphical Sorts/Graphical Smart Bubble sort.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Python AED/Ex1 python AED.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Ex1 python AED.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Merge sort.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Graphical Smart Bubble sort.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/arvore.cpp",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Lua/yes.lua",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Hailstone.py",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Arquivos/Teste Grid.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/parser.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/genetics.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/potencia sem formula.c",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/parser (2).cpp",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Lua/Navinha em lua/main.lua",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Lua/main.lua",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Lua/e.lua",
+		"/C/Users/HAMILTON/Desktop/Folders/Coding/Python/Ping_site.py",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/quadrado magico.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/Calculadora.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Learning codes/Cards/cards.c",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/time.c",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/maiusculas.cpp",
+		"/C/Users/HAMILTON/Documents/.C Stuff/Codes I'm working on/Geneticss.py",
+		"/D/Users/Hamilton/Documents/.C Stuff/Codes I'm working on/genetics.cpp",
+		"/D/Users/Hamilton/Documents/.C Stuff/Codes I'm working on/Geneticss.py",
+		"/D/Users/Hamilton/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/Users/Hamilton/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/D/Users/Hamilton/Documents/.C Stuff/Codes I'm working on/maiusculas.cpp",
+		"/D/Users/Hamilton/Documents/.C Stuff/Codes I'm working on/arvore.cpp",
+		"/D/Users/Hamilton/Desktop/sim.cpp",
+		"/D/Users/Hamilton/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/Users/Hamilton/Desktop/durr.c",
+		"/D/Users/Hamilton/Documents/GitHub/pewpew/navinha.py",
+		"/D/Users/Hamilton/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/Python.sublime-build",
+		"/F/sublime/sublime 3/Data/Packages/User/gcc compile.sublime-build",
+		"/D/Users/Hamilton/Desktop/caio viado.py",
+		"/F/sublime/sublime 3/Packages/Python.sublime-package",
+		"/D/Users/Hamilton/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/gcc compile.sublime-build",
+		"/D/Users/Hamilton/Desktop/Folders/Coding/C/sublime/sublime 3/Data/Packages/User/Plain text.sublime-settings",
+		"/F/Coding/C/just4kick",
+		"/F/Coding/C/sublime/sublime 3/Data/Packages/User/gcc compile.sublime-build",
+		"/C/Users/Lenovo ThinkPad T440/Documents/algoritimos/lab 7/1b.c",
+		"/C/Users/Lenovo ThinkPad T440/Desktop/sublime 3/Data/Packages/User/gcc compile.sublime-build",
+		"/C/Users/Lenovo ThinkPad T440/Documents/algoritimos/lab 7/1.c",
+		"/C/Users/Lenovo ThinkPad T440/Documents/algoritimos/K&R C/c1 e1.c",
+		"/C/Users/Lenovo ThinkPad T440/Desktop/sublime 3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Lenovo ThinkPad T440/Desktop/sublime 3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Lenovo ThinkPad T440/Desktop/sublime 3/Data/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bar",
+			"dirty",
+			"clear",
+			"draw",
+			"ace",
+			"ship",
+			"flanker",
+			"#	flanker_ship = objects.flanker(-400,60*i,\"Red\")\n",
+			"flanker",
+			"life",
+			"points",
+			"maxdistance",
+			"320",
+			"b",
+			"a",
+			"cos",
+			"vel_angle",
+			"calculateSpeed",
+			"accel",
+			"accel_angle",
+			"image",
+			"thing",
+			"shot",
+			"particlepos",
+			"self.angle",
+			"moveforward",
+			"self.maxspd",
+			"update",
+			"maxdelay",
+			"self.delay",
+			"cos",
+			"cameraPos",
+			"player_ship",
+			"self.maxspd",
+			"pos",
+			"Pos",
+			"pos",
+			"Pos",
+			"pos",
+			"Pos",
+			"pos",
+			"Pos",
+			"sprite",
+			"centery",
+			"relative",
+			"self.angle",
+			"angle",
+			"radians(",
+			"+pi/2",
+			"angle",
+			"thing",
+			"angleOffset",
+			"sprite",
+			"angleOffset",
+			"self",
+			"flanker_ship",
+			"rect.x",
+			"grunt_ship",
+			"flanker_friend",
+			"player_ship",
+			"player",
+			"position",
+			"radialaccel",
+			"print",
+			"ready",
+			"60",
+			"()\n",
+			"left",
+			"right",
+			"yScale",
+			"xScale",
+			"dtmod",
+			"gemerun",
+			"player_ship",
+			"(mouse_",
+			"180",
+			"player",
+			"self.accel",
+			"self",
+			"angle",
+			"spd",
+			"spdy",
+			"spd",
+			"spdy",
+			"spd",
+			"spdy",
+			"spd",
+			"vel",
+			"if abs(self.spdx) > self.maxspd:\n    		if self.spdx < 0: self.spdx = -self.maxspd\n    		else: self.spdx = self.maxspd",
+			"player",
+			"shot",
+			"(self)",
+			"shot",
+			"bullet",
+			".rect.",
+			"memoria",
+			"unsigned",
+			"x",
+			"n1",
+			"ç",
+			"player",
+			"accelerating",
+			"type",
+			"QUIT",
+			"draw",
+			"x",
+			"teste",
+			"numeros",
+			"i",
+			"type",
+			"quocient",
+			"aux",
+			"blist",
+			"hero",
+			"line",
+			"cursor",
+			"fraction",
+			"aux",
+			"i[1]",
+			"mutate",
+			"read_genes",
+			"0",
+			"*fpsmod*(dt/dtmod)",
+			"4",
+			"8",
+			"whip",
+			"96",
+			"100"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "game.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3957,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2024,
+								2024
+							]
+						],
+						"settings":
+						{
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 748.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Python27/Lib/site-packages/pygame/examples/aliens.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2042,
+								2042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 547.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "render.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2990,
+								2990
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "objects.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9042,
+								9042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.408854166667,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 269.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Python.sublime-build",
+	"project": "Sublime Project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\HAMILTON\\Desktop\\Folders\\Coding\\Python\\space shooter\\Navinha.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
